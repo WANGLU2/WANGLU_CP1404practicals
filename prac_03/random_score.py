@@ -1,12 +1,13 @@
-"""
-CP1404/CP5632 - Practical
-Broken program to determine score status
-"""
-
+import random
 def main():
-    score = float(input("Enter score: "))
 
-    print(result(score))
+    print(generates_a_random_score())
+    print(result(generates_a_random_score()))
+
+
+def generates_a_random_score():
+    score = random.randrange(1, 101)
+    return score
 
 
 def result(score):
@@ -22,4 +23,3 @@ def result(score):
 
 
 main()
-
