@@ -10,16 +10,14 @@ def generates_a_random_score():
     return score
 
 
-def result(score):
-    if score < 0 or score > 100:
-        print("Invalid score")
-    elif score >= 90:
-        print("Excellent")
+def resul(score):
+    if score >=90:
+        result = "Excellent"
     elif score >= 50:
-        print("Passable")
-
+        result = "Passable"
     else:
-        print("Bad")
+        result = "Bad"
+    return result
 
 
 main()
