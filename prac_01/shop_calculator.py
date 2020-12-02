@@ -13,4 +13,4 @@ for i in range(item_number):
     total_price += item_price
 if total_price > 100:
     total_price = total_price * 0.9
-print('Total price for {} items is ${:.2f}'.format(item_number,total_price))
+print('Total price for {} items is ${:.2f}'.format(item_number, total_price))
