@@ -1,3 +1,8 @@
+"""
+CP1404/CP5632 Practical
+Based on the state name example program above, create a program
+that allows you to look up hexadecimal colour codes
+"""
 COLOR_NAME_TO_CODE = {'black': '#000000',
                       'blue1': '#0000ff',
                       'brown': '#a52a2a',
