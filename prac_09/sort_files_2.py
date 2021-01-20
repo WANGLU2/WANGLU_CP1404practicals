@@ -3,7 +3,7 @@ import shutil
 
 
 def main():
-    """Move files into their respective folders based on user-defined category."""
+
 
     extension_to_category = {}
     os.chdir("FilesToSort")

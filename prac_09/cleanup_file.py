@@ -2,7 +2,7 @@ import os
 
 
 def main():
-    """Program to consistently name files."""
+
     print("Starting directory is: {}".format(os.getcwd()))
 
     # Change to desired directory
