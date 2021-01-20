@@ -22,7 +22,7 @@ def make_extension_folders():
 
 
 def move_file_to_directory():
-    """Loop through files and move each file to directory"""
+
     for filename in os.listdir('.'):
         if os.path.isdir(filename):
             continue

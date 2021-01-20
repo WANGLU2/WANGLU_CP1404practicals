@@ -18,7 +18,7 @@ def main():
 
     # Make a new directory
     # The next time you run this, it will crash if the directory exists
-    # DONE: Use exception handling to avoid the crash (just pass)
+    # Use exception handling to avoid the crash (just pass)
     if os.path.exists('temp'):
         pass
     else:
